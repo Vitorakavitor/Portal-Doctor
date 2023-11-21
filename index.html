@@ -27,6 +27,12 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display:ital@1&display=swap"
+    rel="stylesheet" />
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -46,8 +52,8 @@
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">vdhumal814@gmail.com</a>
-        <i class="bi bi-phone"></i> +91 4578901234
+        <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">vitorm.hugo.alves@gmail.com</a>
+        <i class="bi bi-phone"></i> +55 11 970829189
       </div>
       <div class="d-none d-lg-flex social-links align-items-center">
         <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -75,7 +81,8 @@
           <li><a class="nav-link scrollto" href="#doctors">Doctors</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <li><a class="nav-link scrollto" href="signin.php">Sign in</a></li>
-          <li><span class="d-none d-md-inline"><a class="nav-link scrollto" href="signindr.php">Sign in for Doctor</a></span></li>
+          <li><span class="d-none d-md-inline"><a class="nav-link scrollto" href="signindr.php">Sign in for
+                Doctor</a></span></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -89,7 +96,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container">
-      <h1>Portal For Doctors</h1>
+      <h1>Portal For Clients</h1>
       <h2>All doctors treat, but a good doctor lets nature heal</h2>
       <a href="#about" class="btn-get-started scrollto">Get Started</a>
     </div>
@@ -298,8 +305,9 @@
         </div>
     </section><!-- End Services Section -->
 
-    
-    </section><!--End Appointment Section-->
+
+    </section>
+    <!--End Appointment Section-->
 
     <!-- ======= Departments Section ======= -->
     <section id="departments" class="departments">
@@ -621,28 +629,28 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>East, Ambajogai Rd, near Muktai Mangal Karyalaya, Sham Nagar, Latur, Maharashtra 413512</p>
+                <p>São Paulo, Jaraguá</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>vishdhumal88@gmail.com</p>
+                <p>vitorm.hugo.alves@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+91 9010208070</p>
+                <p>+55 11 970829189</p>
               </div>
 
             </div>
 
           </div>
 
-          </div>
-
         </div>
+
+      </div>
 
       </div>
     </section><!-- End Contact Section -->
@@ -659,13 +667,13 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Portal</h3>
             <p>
-              Ambajogai road,
-              <br> Keshav Nagar
+              São Paulo,
+              <br> SP
               <br>
-              Latur-413512
+              Jaraguá
               <br>
-              <strong>Phone:</strong> +91 2367890122<br>
-              <strong>Email:</strong> bhalkesandhyarani@gmail.com<br>
+              <strong>Phone:</strong> +55 11 970829189<br>
+              <strong>Email:</strong> vitorm.hugo.alves@gmail.com<br>
             </p>
           </div>
 
@@ -695,7 +703,7 @@
             &copy; Copyright <strong><span>Portal</span></strong>. All Rights Reserved
           </div>
           <div class="credits">
-        
+
             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
           </div>
         </div>
@@ -722,6 +730,25 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+  <script>
+    window.botpressWebChat.init({
+      composerPlaceholder: "Chat with Maya",
+      botConversationDescription: "Your personal HealthBot",
+      botId: "10c0a116-9f9c-4410-9a45-388385c4fb5a",
+      hostUrl: "https://cdn.botpress.cloud/webchat/v0",
+      messagingUrl: "https://messaging.botpress.cloud",
+      clientId: "10c0a116-9f9c-4410-9a45-388385c4fb5a",
+      botName: "Maya",
+      avatarUrl: "https://cdn-icons-png.flaticon.com/256/3304/3304567.png",
+      stylesheet:
+        "https://webchat-styler-css.botpress.app/prod/48b171ca-339e-43ef-b928-d6dcbe7885be/v41214/style.css",
+      enableConversationDeletion: true,
+    });
+  </script>
 
 </body>
 
